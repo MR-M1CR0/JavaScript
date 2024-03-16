@@ -1,0 +1,27 @@
+.message {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.result {
+  background-color: aquamarine;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 25px;
+}

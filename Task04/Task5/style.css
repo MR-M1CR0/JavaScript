@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.success {
+  background-color: green;
+  margin-right: 50px;
+}
+
+.error {
+  background-color: red;
+}

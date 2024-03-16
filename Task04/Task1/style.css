@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+img {
+  margin-top: 50px;
+}

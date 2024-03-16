@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.greenCircle {
+  background-color: green;
+  position: relative;
+}
+
+.greenCircle::after {
+  content: "Go";
+  color: green;
+  position: absolute;
+  bottom: -50px;
+  left: 40px;
+  font-weight: bold;
+}
+
+.yellowCircle {
+  background-color: yellow;
+  position: relative;
+}
+
+.yellowCircle::after {
+  content: "Steady";
+  color: yellow;
+  position: absolute;
+  bottom: -50px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.redCircle {
+  background-color: red;
+  position: relative;
+}
+
+.redCircle::after {
+  content: "Ready";
+  color: red;
+  position: absolute;
+  bottom: -50px;
+  left: 30px;
+  font-weight: bold;
+}
